@@ -29,8 +29,8 @@ To collect student feedback about mess food and help improve the overall campus 
 ## 📸 Screenshots
 
 ### 🏠 Home & Today's Menu
-<img width="720" height="1604" alt="1000162526" src="https://github.com/user-attachments/assets/3e313237-4364-40ed-9de4-05c94488560c" />
 <img width="720" height="1604" alt="1000162525" src="https://github.com/user-attachments/assets/c3727593-a733-4156-887d-a1782efc519b" />
+<img width="720" height="1604" alt="1000162526" src="https://github.com/user-attachments/assets/3e313237-4364-40ed-9de4-05c94488560c" />
 
 
 ### ⭐ Feedback Form
@@ -38,8 +38,9 @@ To collect student feedback about mess food and help improve the overall campus 
 
 
 ### 📊 Rating Summary
-![Rat<img width="720" height="1604" alt="1000162529" src="https://github.com/user-attachments/assets/a85fdf51-e8fa-4d93-b982-7cd893e278e0" />
 <img width="720" height="1604" alt="1000162528" src="https://github.com/user-attachments/assets/89ced383-d171-4adf-ab21-9e2a7cfd49c3" />
+![Rat<img width="720" height="1604" alt="1000162529" src="https://github.com/user-attachments/assets/a85fdf51-e8fa-4d93-b982-7cd893e278e0" />
+
 
 
 ## 👩‍💻 Developed By
