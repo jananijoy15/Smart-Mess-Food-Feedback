@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Mess Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🍱 Smart Mess</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Today's Menu</a>
+        <a href="#feedback">Feedback</a>
+    </nav>
+</header>
+
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>Smart Mess Food Feedback</h1>
+
+        <p>
+            Rate your daily mess food, share your feedback,
+            and help improve your campus dining experience.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#menu" class="btn">View Today's Menu</a>
+            <a href="#feedback" class="btn secondary">Give Feedback</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="menu-section" id="menu">
+
+    <h2>🍽️ Today's Menu</h2>
+
+    <p>Check today's meals before giving your feedback.</p>
+
+    <div class="menu-container">
+
+        <div class="menu-card">
+            <span>🌅</span>
+            <h3>Breakfast</h3>
+            <p>Idli • Sambar • Chutney</p>
+        </div>
+
+        <div class="menu-card">
+            <span>☀️</span>
+            <h3>Lunch</h3>
+            <p>Pulav • Chicken Curry</p>
+        </div>
+
+        <div class="menu-card">
+            <span>🌙</span>
+            <h3>Dinner</h3>
+            <p>Chapati • Vegetable Kurma</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="feedback-section" id="feedback">
+
+    <h2>⭐ Give Your Feedback</h2>
+
+    <p>Tell us how you felt about today's food.</p>
+
+    <form id="feedbackForm">
+
+        <input
+            type="text"
+            id="studentName"
+            placeholder="Your Name"
+            required
+        >
+
+        <select id="meal" required>
+            <option value="">Select Meal</option>
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+        </select>
+
+        <select id="rating" required>
+            <option value="">Rate the Food</option>
+            <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+            <option value="4">⭐⭐⭐⭐ Good</option>
+            <option value="3">⭐⭐⭐ Average</option>
+            <option value="2">⭐⭐ Poor</option>
+            <option value="1">⭐ Very Poor</option>
+        </select>
+
+        <textarea
+            id="comment"
+            rows="4"
+            placeholder="Write your feedback..."
+            required
+        ></textarea>
+
+        <button type="submit">
+            Submit Feedback
+        </button>
+
+    </form>
+
+</section>
+
+
+<section class="feedback-list">
+<section class="summary-section">
+
+    <h2>📊 Mess Rating Summary</h2>
+
+    <div class="summary-container">
+
+        <div class="summary-card">
+            <span id="totalFeedback">0</span>
+            <p>Total Feedback</p>
+        </div>
+
+        <div class="summary-card">
+            <span id="averageRating">0.0 ⭐</span>
+            <p>Average Rating</p>
+        </div>
+
+        <div class="summary-card">
+            <span id="topMeal">-</span>
+            <p>Top Rated Meal</p>
+        </div>
+
+    </div>
+
+</section>
+    <h2>💬 Recent Feedback</h2>
+
+    <div id="feedbackContainer">
+        <p>No feedback submitted yet.</p>
+    </div>
+
+</section>
+
+
+<footer>
+    <p>© 2026 Smart Mess Feedback</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
